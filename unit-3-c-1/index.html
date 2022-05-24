@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+      
+      <div class="container">
+        <h2>Enter Product</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="Type">Type:</label>
+                <input type="text" class="form-control" id="Type" placeholder="Enter Type" name="email">
+              </div>
+
+          <div class="form-group">
+            <label for="Description">Description:</label>
+            <input type="text" class="form-control" id="Description" placeholder="Enter Description" name="email">
+          </div>
+          <div class="form-group">
+            <label for="Price">Price:</label>
+            <input type="password" class="form-control" id="Price" placeholder="Enter Price" name="pwd">
+          </div>
+          <div class="form-group">
+            <label for="Image">Image url:</label>
+            <input type="file" class="form-control" id="Image" name="pwd">
+          </div>
+         
+          <button type="button" onclick="saveData()" id="save_btn" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+      
+      </body>
+</html>
+
+<script src="./scripts/index.js"></script>
